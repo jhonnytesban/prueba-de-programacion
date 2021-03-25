@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jhonnytesban/prueba-de-programacion#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.11.15",
     "pug": "^3.0.2"
   },
   "devDependencies": {

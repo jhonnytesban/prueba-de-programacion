@@ -6,3 +6,11 @@ html(lang="es")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Prueba de programación
   body 
+    form(action="/", method="POST")
+      input(type="number", name="number")
+      input#submit(type="submit", value="Enviar") 
+
+    each numeros in arrayNumber 
+      p= numeros.number
+
+    script(src="js/app.js") 
