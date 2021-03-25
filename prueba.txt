@@ -1,0 +1,9 @@
+mandar a través de un enlace drive el archivo zip a oscar
+
+6 requisitos, los 4 primeros son los más importante
+1- Crear un ejecutable que sirva una página html vacía en localhost: 80
+2- Implementar un endpoint rest que reciba un número variable, no tipado, y que devuelva la suma si son números
+3- Implementar un endpoint res que devuelva el histórico de llamadas al endpoint anterios
+4- Crear un formulario para llamar al 1º servicio rest indicando un número variable de parámetros y mostrando el resultado
+5- Implementar la visualización del histórico de llamadas en la página html
+6- Crear un test para validar los resultados de ambos servicios
